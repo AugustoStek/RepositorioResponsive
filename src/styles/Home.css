@@ -1,0 +1,44 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.typewriter-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Texto dinámico en morado o amarillo */
+.highlight-text {
+  font-weight: bold;
+}
+
+/* Forzamos con clase oscura y clara directamente */
+html.light .highlight-text {
+  color: #c5a100; /* Amarillo suave */
+}
+
+html.dark .highlight-text {
+  color: #9147ff; /* Morado Twitch */
+}
+
+.intro-text {
+  max-width: 600px;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+html.light .intro-text {
+  color: #333;
+}
+
+html.dark .intro-text {
+  color: #ccc;
+}
+

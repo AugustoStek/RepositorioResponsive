@@ -10,6 +10,7 @@
 .about-container {
   padding-top: 40px;
   padding-bottom: 40px;
+  height: 100%;
 }
 
 .bio {
@@ -30,6 +31,12 @@
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .dark-mode .about-card {
@@ -38,11 +45,37 @@
 }
 
 .profile-img {
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
   border: 4px solid #ccc;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
+}
+.about-container .row {
+  height: 100%;
+  min-height: 100%;
+}
+
+.about-container .col-md-4,
+.about-container .col-md-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col-md-4,
+.col-md-8 {
+  display: flex;
+  flex-direction: column;
 }

@@ -1,0 +1,27 @@
+.custom-button {
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  color: white;
+  background-color: #c5a100; /* Amarillo claro por defecto */
+  border: none;
+  cursor: pointer;
+}
+
+/* En modo oscuro, si usás Tailwind o html.dark */
+html.dark .custom-button,
+body.dark .custom-button,
+.custom-button.dark {
+  background-color: #9147ff; /* Morado Twitch */
+  color: white;
+}
+
+.custom-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}

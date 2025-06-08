@@ -4,6 +4,20 @@
   min-height: 100vh;
 }
 
+/* Cambia el fondo según el modo */
+html.light .app-layout {
+  background-color: #ffffff; /* fondo claro */
+  color: #000000;
+}
+
+html.dark .app-layout {
+  background-color: #121212; /* fondo oscuro */
+  color: #ffffff;
+}
+
 .main-content {
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

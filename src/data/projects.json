@@ -1,26 +1,31 @@
 [
   {
-    "name": "Portfolio Web basico",
-    "description": "Primer sitio web creado con React",
-    "image": "",
-    "link": ""
+    "id": "portfolio",
+    "title": "Portfolio Web básico",
+    "description": "Primer porfolio creado con React...",
+    "image": "public/augusto.jpg",
+    "github": "https://github.com/AugustoStek/RepositorioResponsive.git"
   },
   {
-    "name": "Rick y Morty API",
-    "description": "Consumision de API de Rick y Morty en React",
-    "image": "",
-    "link": ""
+    "id": "rick-morty",
+    "title": "Rick y Morty API",
+    "description": "Consumición de API de Rick y Morty...",
+    "image": "public/RickYMorty.png",
+    "github": "https://github.com/AugustoStek/Reack-MortyAPI.git"
   },
   {
-    "name": "Sistema de Stock personalizado para kiosco",
-    "description": "Sistema de Stock personalizado con Winform C#, POO con login y validaciones",
-    "image": "",
-    "link": ""
+    "id": "stock",
+    "title": "Sistema de Stock personalizado para kiosco",
+    "description": "Sistema de Stock con Winform C#, login, validaciones...",
+    "image": "public/StockPersonalizado.png",
+    "github": "https://github.com/AugustoStek/StockPersonalizado"
   },
   {
-    "name": "Calculadora",
-    "description": "Simplemente una calculadora",
-    "image": "",
-    "link": ""
+    "id": "landing",
+    "title": "Landing page CSS y HTML",
+    "description": "Landing de prueba para mejorar conocimientos en HTML y CSS.",
+    "image": "public/PaginaPrueba.png",
+    "github": "https://github.com/AugustoStek/LandingPagePrueba.git"
   }
 ]
+
