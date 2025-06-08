@@ -1,19 +1,21 @@
 .project-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: center;
 }
 
+
 .project-card {
-  background-color: var(--bs-light);
-  border-radius: 16px;
+  background-color: var(--card-bg);
+  border-radius: 1rem;
   overflow: hidden;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.3s ease;
 }
+
 
 html.dark .project-card {
   background-color: #1e1e1e;
@@ -58,4 +60,10 @@ html.dark .project-section-divider {
 
 html.dark .project-detail-section {
   border-color: #444;
+}
+
+.project-description {
+  overflow: visible;     /* Asegura que el texto no se oculte */
+  white-space: normal;   /* Permite saltos de línea */
+  text-overflow: unset;
 }

@@ -2,21 +2,21 @@
   {
     "id": "portfolio",
     "title": "Portfolio Web básico",
-    "description": "Primer porfolio creado con React...",
+    "description": "Primer porfolio creado con React. Es extremadamente simple y posee algunos errores",
     "image": "public/augusto.jpg",
     "github": "https://github.com/AugustoStek/RepositorioResponsive.git"
   },
   {
     "id": "rick-morty",
     "title": "Rick y Morty API",
-    "description": "Consumición de API de Rick y Morty...",
+    "description": "Consumición de API de Rick y Morty que vimos en la sexta clase, mostrando el funcionamiento de la consumision de APIs",
     "image": "public/RickYMorty.png",
     "github": "https://github.com/AugustoStek/Reack-MortyAPI.git"
   },
   {
     "id": "stock",
     "title": "Sistema de Stock personalizado para kiosco",
-    "description": "Sistema de Stock con Winform C#, login, validaciones...",
+    "description": "Sistema de Stock con Winform C#, login, validaciones y programacion orientada a objetos.",
     "image": "public/StockPersonalizado.png",
     "github": "https://github.com/AugustoStek/StockPersonalizado"
   },

@@ -10,8 +10,8 @@ const fadeIn = (delay = 0) => ({
     visible: {
         opacity: 1,
         y: 0,
-        transition: { duration: 0.6, delay }
-    }
+        transition: { duration: 0.6, delay },
+    },
 });
 
 const scrollToId = (id) => {
@@ -40,7 +40,7 @@ const Projects = () => {
                 <div className="project-card-grid mb-5">
                     {projects.map((project, index) => (
                         <motion.div
-                            key={project.id}
+                            key={`project-card-${index}`}
                             className="project-card"
                             initial="hidden"
                             whileInView="visible"
@@ -50,17 +50,18 @@ const Projects = () => {
                             <div className="project-card-image-container">
                                 <img
                                     src={project.image}
-                                    alt={project.title}
+                                    alt={project.name}
                                     className="project-card-image"
                                 />
                             </div>
                             <div className="project-card-body text-center">
-                                <h5 className="mb-3">{project.title}</h5>
+                                <h5 className="mb-3">{project.name}</h5>
                                 <CustomButton
+                                    to="#"
                                     variant="highlight"
                                     onClick={(e) => {
                                         e.preventDefault();
-                                        scrollToId(`project-detail-${project.id}`);
+                                        scrollToId(`project-detail-${index}`);
                                     }}
                                 >
                                     Más info
@@ -77,20 +78,20 @@ const Projects = () => {
                 <div className="project-details">
                     {projects.map((project, index) => (
                         <motion.div
-                            key={project.id}
-                            id={`project-detail-${project.id}`}
+                            key={`project-detail-${index}`}
+                            id={`project-detail-${index}`}
                             className="project-detail-section mb-5"
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
                             variants={fadeIn(index * 0.2)}
                         >
-                            <h3 className="mb-4 text-center">{project.title}</h3>
+                            <h3 className="mb-4 text-center">{project.name}</h3>
                             <div className="row align-items-center">
                                 <div className="col-md-6 mb-3 mb-md-0 text-center">
                                     <img
                                         src={project.image}
-                                        alt={project.title}
+                                        alt={project.name}
                                         className="img-fluid rounded shadow"
                                     />
                                 </div>
