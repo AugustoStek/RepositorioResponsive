@@ -1,0 +1,48 @@
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bio {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.tech-list,
+.hobby-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+
+.about-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.dark-mode .about-card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: #555;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}

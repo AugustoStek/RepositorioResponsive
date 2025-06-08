@@ -1,0 +1,19 @@
+{
+  "firstName": "Augusto",
+  "lastName": "Stekelberg",
+  "email": "augustostekelberg@gmail.com",
+  "title": "Programador full stack",
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/AugustoStek/",
+      "icon": "fab fa-github"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/stek.augusto/",
+      "icon": "fab fa-instagram"
+    }
+  ]
+}
+

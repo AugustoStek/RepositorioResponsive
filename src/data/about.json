@@ -1,0 +1,21 @@
+{
+  "image": "public/augusto.jpg",
+  "bio": "Estudiante de programación, trabajador en Scania con conocimientos en bases de datos, programación orientada a objetos y actualmente aprendiendo React para web.",
+  "hobbies": [
+    "Leer",
+    "Reparación y armado de PC's",
+    "Programar",
+    "Jugar videojuegos",
+    "Investigar sobre IA",
+    "Escritura de guiones"
+  ],
+  "technologies": [
+    "React",
+    "JavaScript",
+    "SQL SERVER",
+    "MySQL",
+    "C#",
+    "Java",
+    "NEO4J"
+  ]
+}

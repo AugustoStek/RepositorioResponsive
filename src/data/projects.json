@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Portfolio Web basico",
+    "description": "Primer sitio web creado con React",
+    "image": "",
+    "link": ""
+  },
+  {
+    "name": "Rick y Morty API",
+    "description": "Consumision de API de Rick y Morty en React",
+    "image": "",
+    "link": ""
+  },
+  {
+    "name": "Sistema de Stock personalizado para kiosco",
+    "description": "Sistema de Stock personalizado con Winform C#, POO con login y validaciones",
+    "image": "",
+    "link": ""
+  },
+  {
+    "name": "Calculadora",
+    "description": "Simplemente una calculadora",
+    "image": "",
+    "link": ""
+  }
+]
